@@ -34,10 +34,10 @@ in a single line of code:
     >>> New_user = User("John Doe", "jdoe@outlook.com", "p@ssw0rd", 1234)
 """
 
-class shark(type):
+class shark(Whale):
     weight = 5.00
     length = 'shorter'
 
-class dolphin(type):
+class dolphin(Whale):
     blowhole = 'smaller'
     intelligence = 'higher'
